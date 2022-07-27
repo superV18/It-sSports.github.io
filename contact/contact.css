@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika', sans-serif;
+}
+.contact-section {
+    background-color:#0F2936;
+    background-size: cover;
+    padding: 40px 0;
+}
+.contact-section h1 {
+    text-align: center;
+    color: #ddd;
+    margin-top: 45px;
+}
+.border {
+    width: 100px;
+    height: 10px;
+    background: #fff;
+    margin: 40px auto;
+}
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #fff;
+    padding: 20px 40px;
+    outline: none;
+    color: #09475B;
+    transition: 0.5s;
+}
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px #fff;
+}
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+    border-radius: 1rem;
+}
+input{
+    border-radius: 1rem;
+}
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background: #fff;
+    color: #73C1E1;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-form-btn:hover {
+    background: #0F2936;
+}
+.contact-info {
+    background: #0F2936;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.card {
+    background: #73C1E1;
+    padding: 0 20px;
+    margin: 0 10px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.card-icon {
+    font-size: 28px;
+    background: #09475B;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50px;
+    transition: 0.3s linear;
+}
+.card:hover .card-icon{
+    background: none;
+    color: #0F2936;
+    transform: scale(1.6);
+}
+.card p {
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+.card:hover p {
+    max-height: 40px;
+    opacity: 1;
+}
+.card a {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+.card:hover a {
+    max-height: 40px;
+    opacity: 1;
+}
+.card iframe {
+    align-items: center;
+    margin-top: -95px;
+    margin-bottom: 5px;
+}
+nav {
+    font-family: 'Signika', sans-serif;
+    background-color: #09475B;
+}
+nav .logo {
+    height: 50px;
+    width: auto;
+}
+
+.hover-effect:hover {
+    background-color: #0F2936;
+}
+
+.logoheader {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+footer {
+    background-color: #1e7f9f;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
+footer a{
+    color:#0F2936;
+}
+.icon {
+    color: #fff;
+    font-size: 2rem;
+}

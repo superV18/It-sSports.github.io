@@ -1,0 +1,16 @@
+nav {
+    font-family: 'Signika', sans-serif;
+}
+
+nav .logo {
+    margin-left: -4%;
+    margin-top: -3%;
+    height: 52px;
+    width: auto;
+}
+.navbar {
+    background-color: #09475B;
+}
+.hover-effect:hover {
+    background-color: #0F2936;
+}

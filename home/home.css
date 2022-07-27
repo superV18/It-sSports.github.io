@@ -1,0 +1,104 @@
+/*** general ***/
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+    color: #fff;
+    font-family: 'Signika', sans-serif;
+}
+/*extra responsiveness text*/
+@media only screen and (max-width: 600px){
+    .intro h1 {
+        padding-top: 7rem;
+        font-size: 4rem;
+    }
+    .intro h3 {
+        font-size: 1.6rem;
+    }
+    .intro h2 {
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 601px){
+    .intro h1 {
+        padding-top: 8rem;
+        font-size: 5rem;
+    }
+    .intro h3 {
+        font-size: 2rem;
+    }
+    .intro h2 {
+        font-size: 3rem;
+    }
+    .event p {
+        font-size: 1.1rem;
+    }
+}
+/*** nav ***/
+.navbar {
+    background-color: #1e7f9f;
+}
+nav .logo {
+    height: 50px;
+    width: auto;
+}
+nav .hover-effect:hover{
+    background-color: #0F2936;
+    padding: 0.1rem;
+    font-size: larger;
+    border-radius: 0.5rem;
+}
+/*** parallax ***/
+.parallax {
+    background-image: url("img/parallax.jpg");   
+    height: 100%;
+    /*parallax scroll*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+/*** main ***/
+.event {
+    color: #09475B;
+}
+a{
+    color: #73C1E1;
+}
+.card {
+    width: 20rem;
+    background-color: #09475B;
+}
+.btn {
+    color: #fff;
+    background-color: #73C1E1;
+}
+.card-title, #mail:link {
+    color: #73C1E1;
+}
+.card:hover .card-title, #mail:hover {
+    color: #fff;
+}
+.btn:hover {
+    color: #fff;
+    background-color: #0F2936;
+}
+hr {
+    background-color: #fff;
+}
+/*** footer ***/
+footer {
+    background-color: #1e7f9f;
+    text-align: center;
+    font-size: 1.5rem;
+}
+footer p a{
+    color:#0F2936;
+    text-align: center;
+}
+.icon {
+    color: #fff;
+    font-size: 2rem;
+}
